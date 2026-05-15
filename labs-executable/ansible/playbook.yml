@@ -1,0 +1,81 @@
+---
+# Ansible Playbook: Web Server Setup
+# Installs and configures NGINX web server
+
+- name: Configure Web Servers
+  hosts: all
+  become: yes
+  vars:
+    nginx_port: 80
+    app_name: "DevOps Lab"
+    
+  tasks:
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+        cache_valid_time: 3600
+      when: ansible_os_family == "Debian"
+
+    - name: Install NGINX (Debian/Ubuntu)
+      apt:
+        name: nginx
+        state: present
+      when: ansible_os_family == "Debian"
+
+    - name: Install NGINX (RHEL/CentOS)
+      yum:
+        name: nginx
+        state: present
+      when: ansible_os_family == "RedHat"
+
+    - name: Create application directory
+      file:
+        path: /var/www/app
+        state: directory
+        owner: www-data
+        group: www-data
+        mode: '0755'
+
+    - name: Deploy index.html
+      copy:
+        content: |
+          <!DOCTYPE html>
+          <html>
+          <head>
+            <title>{{ app_name }}</title>
+            <style>
+              body { font-family: Arial; text-align: center; padding: 50px; }
+              h1 { color: #333; }
+              .info { color: #666; }
+            </style>
+          </head>
+          <body>
+            <h1>Welcome to {{ app_name }}!</h1>
+            <p class="info">Deployed with Ansible</p>
+            <p class="info">Server: {{ inventory_hostname }}</p>
+          </body>
+          </html>
+        dest: /var/www/app/index.html
+
+    - name: Start and enable NGINX
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+
+    - name: Configure firewall (UFW)
+      ufw:
+        rule: allow
+        port: "{{ nginx_port }}"
+        proto: tcp
+      when: ansible_os_family == "Debian"
+
+    - name: Verify NGINX is running
+      command: systemctl status nginx
+      register: nginx_status
+      changed_when: false
+      failed_when: false
+
+    - name: Display NGINX status
+      debug:
+        var: nginx_status.stdout_lines
