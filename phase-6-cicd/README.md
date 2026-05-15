@@ -1,69 +1,25 @@
-# 🔧 Phase 6: CI/CD & Infrastructure as Code
+# Phase 6: CI/CD & Infrastructure as Code
 
-Automate deployments and manage infrastructure with code.
+This phase covers continuous integration, deployment, and infrastructure automation.
 
 ## Topics Covered
 
-### 📝 Topic 23: Config Management
-- Ansible, Chef, Puppet
-- Declarative configuration
-- Idempotency
-- Playbooks and recipes
-
-**Coming Soon**
-
-### 📝 Topic 24: CI/CD Basics
-- Continuous Integration concepts
-- Continuous Deployment pipeline
-- Build, test, deploy stages
-- Git workflows
-
-**Coming Soon**
-
-### 📝 Topic 25: GitHub Actions
-- Workflow syntax
-- Actions and runners
-- Secrets management
-- CI automation patterns
-
-**Coming Soon**
-
-### 📝 Topic 26: Infrastructure as Code
-- Terraform fundamentals
-- State management
-- Modules and reusability
-- Cloud provisioning
-
-**Coming Soon**
+1. **CI/CD Concepts** - Pipelines, stages, best practices
+2. **GitHub Actions** - Workflow automation
+3. **ArgoCD** - GitOps continuous delivery
+4. **Terraform** - Infrastructure as Code
 
 ## Learning Path
-
-1. Learn **Config Management** - System configuration
-2. Understand **CI/CD Basics** - Pipeline concepts
-3. Master **GitHub Actions** - CI/CD implementation
-4. Practice **Infrastructure as Code** - Terraform
+```
+CI/CD Concepts → GitHub Actions → ArgoCD → Terraform
+```
 
 ## Prerequisites
+- Complete Phase 5 (Traffic & Resilience)
+- Git fundamentals
 
-- Complete Phases 1-5
-- Basic cloud knowledge
-
-## Learning Outcomes
-
-After completing Phase 6, you will be able to:
-- Automate system configuration
-- Build CI/CD pipelines
-- Provision infrastructure with code
-- Manage state and modules
-
-## Time Estimate
-
-- 10-14 days total
+## Coming Soon
+Detailed content for each topic is being developed.
 
 ## Next Phase
-
-Proceed to [Phase 7: Reliability Engineering](../phase-7-reliability/README.md)
-
----
-
-**Phase Status:** Coming Soon
+→ [Phase 7: Reliability Engineering](../phase-7-reliability/)

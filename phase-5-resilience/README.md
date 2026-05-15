@@ -1,60 +1,24 @@
-# ⚖️ Phase 5: Traffic & Resilience
+# Phase 5: Traffic & Resilience
 
-Build resilient systems that handle failures gracefully.
+This phase covers load balancing, service mesh, and chaos engineering.
 
 ## Topics Covered
 
-### 📝 Topic 20: Load Balancers
-- L4 vs L7 load balancing
-- HAProxy and NGINX
-- Load balancing algorithms
-- Health checks
-
-**Coming Soon**
-
-### 📝 Topic 21: Queues & Backpressure
-- Message queues (RabbitMQ, Kafka)
-- Producer/consumer patterns
-- Backpressure handling
-- Flow control
-
-**Coming Soon**
-
-### 📝 Topic 22: Circuit Breakers & Retries
-- Fault tolerance patterns
-- Circuit breaker implementation
-- Exponential backoff
-- Retry strategies
-
-**Coming Soon**
+1. **Load Balancing** - Traffic distribution, health checks
+2. **Service Mesh** - Istio, Linkerd for microservices communication
+3. **Chaos Engineering** - Testing system resilience
 
 ## Learning Path
-
-1. Implement **Load Balancers** - Traffic distribution
-2. Master **Queues & Backpressure** - Async communication
-3. Apply **Circuit Breakers** - Fault tolerance
+```
+Load Balancing → Service Mesh → Chaos Engineering
+```
 
 ## Prerequisites
+- Complete Phase 4 (Observability)
+- Understanding of microservices architecture
 
-- Complete Phases 1-4
-- Understanding of distributed systems
-
-## Learning Outcomes
-
-After completing Phase 5, you will be able to:
-- Design load-balanced architectures
-- Implement message queues
-- Handle system failures gracefully
-- Build resilient services
-
-## Time Estimate
-
-- 6-9 days total
+## Coming Soon
+Detailed content for each topic is being developed.
 
 ## Next Phase
-
-Proceed to [Phase 6: CI/CD & IaC](../phase-6-cicd/README.md)
-
----
-
-**Phase Status:** Coming Soon
+→ [Phase 6: CI/CD & IaC](../phase-6-cicd/)

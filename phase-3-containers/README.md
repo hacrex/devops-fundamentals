@@ -1,99 +1,60 @@
-# 🐳 Phase 3: Containers & Kubernetes
+# Phase 3: Containers & Kubernetes
 
-Master containerization and orchestration technologies.
+This phase covers containerization with Docker and orchestration with Kubernetes.
 
 ## Topics Covered
 
-### 📝 Topic 9: Containers 101
-- What are containers
-- Namespaces and cgroups
-- Container vs VMs
-- Container lifecycle
-- Security considerations
+### ✅ Completed Topics
 
-**Coming Soon**
+1. **[Docker Basics](topic-01-docker-basics/)** - Container fundamentals, images, Dockerfile
+   - Core concepts and architecture
+   - Essential commands
+   - Building custom images
+   - Hands-on lab exercises
 
-### 📝 Topic 10: Docker Internals
-- Docker architecture
-- Images and layers
-- Volumes and storage
-- Docker networking
-- Dockerfile best practices
+2. **[Docker Compose](topic-02-docker-compose/)** - Multi-container applications
+   - Compose file structure
+   - Service orchestration
+   - Development vs Production
+   - Full-stack example
 
-**Coming Soon**
+3. **[Kubernetes Architecture](topic-03-k8s-architecture/)** - K8s components
+   - Control plane components
+   - Worker node components
+   - Communication flow
+   - HA setup
 
-### 📝 Topic 11: Kubernetes Basics
-- Pods and deployments
-- Services and ingress
-- kubectl commands
-- ConfigMaps and Secrets
-- Namespaces
+4. **[Pods and Deployments](topic-04-k8s-pods-deployments/)** - Workload management
+   - Pod lifecycle
+   - Deployment strategies
+   - Scaling and updates
+   - Advanced features
 
-**Coming Soon**
+5. **[Services and Ingress](topic-05-k8s-services-ingress/)** - Networking
+   - Service types
+   - Ingress configuration
+   - Load balancing
+   - TLS termination
 
-### 📝 Topic 12: K8s Networking
-- CNI plugins
-- ClusterIP, NodePort, LoadBalancer
-- CoreDNS
-- Network policies
-- Service mesh basics
-
-**Coming Soon**
-
-### 📝 Topic 13: Ingress & Service Mesh
-- Ingress controllers
-- Istio architecture
-- Traffic management
-- mTLS
-- Observability
-
-**Coming Soon**
-
-### 📝 Topic 14: Pod Scheduling
-- Taints and tolerations
-- Node affinity
-- Resource limits
-- Quality of Service
-- Priority classes
-
-**Coming Soon**
+6. **[Helm](topic-06-helm/)** - Package manager
+   - Chart structure
+   - Creating charts
+   - Managing releases
+   - Best practices
 
 ## Learning Path
 
-1. Start with **Containers 101** - Core concepts
-2. Master **Docker** - Container runtime
-3. Learn **Kubernetes Basics** - Orchestration
-4. Deep dive into **K8s Networking**
-5. Explore **Service Mesh**
-6. Master **Pod Scheduling**
+```
+Docker Basics → Docker Compose → K8s Architecture → Pods/Deployments → Services/Ingress → Helm
+```
 
 ## Prerequisites
-
 - Complete Phase 1 (Linux Fundamentals)
-- Complete Phase 2 (Networking)
-- Basic understanding of applications
+- Complete Phase 2 (Networking Basics)
+- Basic understanding of containers
 
-## Learning Outcomes
-
-After completing Phase 3, you will be able to:
-- Containerize applications with Docker
-- Deploy and manage Kubernetes clusters
-- Configure networking and security
-- Implement service mesh patterns
-- Optimize pod scheduling
-
-## Time Estimate
-
-- Topics 9-10: 5-7 days
-- Topics 11-12: 7-10 days
-- Topics 13-14: 5-7 days
-
-**Total: 17-24 days**
+## Hands-On Labs
+Each topic includes executable lab scripts and example configurations.
 
 ## Next Phase
-
-After mastering containers, proceed to [Phase 4: Observability](../phase-4-observability/README.md)
-
----
-
-**Phase Status:** Coming Soon
+→ [Phase 4: Observability](../phase-4-observability/)
