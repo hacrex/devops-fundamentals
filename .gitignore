@@ -1,3 +1,48 @@
-```
-# Documentation and lab files are source content - no ignores needed for the provided changes
+```markdown
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.out
+dist/
+build/
+target/
+
+# Dependencies
+.venv/
+venv/
+.env
+.env.local
+*.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Gradle
+.gradle/
+
+# MyPy cache
+.mypy_cache/
+
+# Pytest cache
+.pytest_cache/
 ```
