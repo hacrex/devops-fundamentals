@@ -1,5 +1,8 @@
 # Topic 1: Docker Basics
 
+**Difficulty:** 🟢 Beginner | **Time:** ⏱️ 60 min
+
+
 ## Introduction
 Docker is a platform for developing, shipping, and running applications in containers. Containers package code and dependencies together, ensuring consistency across environments.
 

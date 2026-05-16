@@ -228,6 +228,45 @@ devops-fundamentals/
 
 ---
 
+
+## 📝 Assessments & Certification
+
+Test your knowledge and earn a certificate!
+
+### Assessment Structure
+- **7 Phase Quizzes** - Multiple-choice questions for each phase
+- **7 Practical Challenges** - Hands-on exercises testing real-world skills  
+- **Capstone Project** - Comprehensive project combining all skills
+- **Certificate** - Earn upon completing all requirements
+
+📁 **[View All Assessments](./assessments/)**
+
+### Progress Tracking
+| Phase | Quiz | Challenge | Status |
+|-------|------|-----------|--------|
+| 1. Linux | [Quiz](./assessments/quizzes/phase-01-linux-quiz.md) | [Challenge](./assessments/challenges/phase-01-linux-challenge.md) | ⬜ |
+| 2. Networking | [Quiz](./assessments/quizzes/phase-02-networking-quiz.md) | [Challenge](./assessments/challenges/phase-02-networking-challenge.md) | ⬜ |
+| 3. Containers | [Quiz](./assessments/quizzes/phase-03-containers-quiz.md) | [Challenge](./assessments/challenges/phase-03-challenge.md) | ⬜ |
+| 4. Observability | [Quiz](./assessments/quizzes/phase-04-quiz.md) | [Challenge](./assessments/challenges/phase-04-challenge.md) | ⬜ |
+| 5. Resilience | [Quiz](./assessments/quizzes/phase-05-quiz.md) | [Challenge](./assessments/challenges/phase-05-challenge.md) | ⬜ |
+| 6. CI/CD & IaC | [Quiz](./assessments/quizzes/phase-06-quiz.md) | [Challenge](./assessments/challenges/phase-06-challenge.md) | ⬜ |
+| 7. Reliability | [Quiz](./assessments/quizzes/phase-07-quiz.md) | [Challenge](./assessments/challenges/phase-07-challenge.md) | ⬜ |
+
+### 🏆 Capstone Project
+Design and implement a complete DevOps pipeline with CI/CD, monitoring, and resilience features.
+
+📁 **[View Capstone Details](./assessments/capstone/README.md)**
+
+### 🎓 Certificate
+Earn a **DevOps Fundamentals Certificate** upon completing:
+- ✅ All 7 quizzes (80%+ score)
+- ✅ All 7 practical challenges
+- ✅ Capstone project
+
+📁 **[Certificate Template](./assessments/certificate-template.md)**
+
+---
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please read [CONTRIBUTING.md](./CONTRIBUTING.md) first.
