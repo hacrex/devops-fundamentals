@@ -6,7 +6,7 @@
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 ![Topics](https://img.shields.io/badge/Topics-30-orange?style=for-the-badge)
-![Labs](https://img.shields.io/badge/Labs-3-purple?style=for-the-badge)
+![Labs](https://img.shields.io/badge/Labs-7-purple?style=for-the-badge)
 
 ---
 
@@ -104,11 +104,33 @@ Phase 4: Observability  →  Phase 5: CI/CD & IaC  →  Phase 6: Reliability
 
 ## 🧪 Hands-on Labs
 
-| Lab | Title | Tools Used |
-|-----|-------|-----------|
-| [Lab 1](./hands-on-labs/lab-01-nodejs-docker-cicd.md) | Deploy Node.js App with Docker + GitHub Actions | Docker, GitHub Actions |
-| [Lab 2](./hands-on-labs/lab-02-prometheus-grafana.md) | Prometheus + Grafana Monitoring Stack | Prometheus, Grafana, Docker Compose |
-| [Lab 3](./hands-on-labs/lab-03-terraform-aws-ec2.md) | Infrastructure as Code with Terraform | Terraform, AWS EC2 |
+| Lab | Title | Tools Used | Difficulty | Time |
+|-----|-------|-----------|------------|------|
+| [Lab 1](./hands-on-labs/lab-01-nodejs-docker-cicd.md) | Deploy Node.js App with Docker + GitHub Actions | Docker, GitHub Actions | 🟢 Beginner | 45 min |
+| [Lab 2](./hands-on-labs/lab-02-prometheus-grafana.md) | Prometheus + Grafana Monitoring Stack | Prometheus, Grafana, Docker Compose | 🟢 Beginner | 60 min |
+| [Lab 3](./hands-on-labs/lab-03-terraform-aws-ec2.md) | Infrastructure as Code with Terraform | Terraform, AWS EC2 | 🟡 Intermediate | 45 min |
+| [Lab 4](./hands-on-labs/lab-04-elk-stack-logging.md) | ELK Stack for Centralized Logging | Elasticsearch, Logstash, Kibana, Filebeat | 🟡 Intermediate | 90 min |
+| [Lab 5](./hands-on-labs/lab-05-kubernetes-helm.md) | Kubernetes Deployment with Helm | Kubernetes, Helm, Docker | 🟡 Intermediate | 75 min |
+| [Lab 6](./hands-on-labs/lab-06-github-actions-argocd.md) | CI/CD Pipeline with GitHub Actions + ArgoCD | GitHub Actions, ArgoCD, Helm | 🔴 Advanced | 90 min |
+| [Lab 7](./hands-on-labs/lab-07-chaos-engineering.md) | Chaos Engineering with Chaos Mesh | Chaos Mesh, Kubernetes | 🔴 Advanced | 60 min |
+
+---
+
+## 🛠️ Quick Start
+
+```bash
+# Run pre-flight check to verify your environment
+./scripts/preflight.sh
+
+# If all checks pass, start with Lab 1
+cat hands-on-labs/lab-01-nodejs-docker-cicd.md
+```
+
+### Need Help?
+
+- 📖 **Troubleshooting Guide**: See [TROUBLESHOOTING.md](./TROUBLESHOOTING.md) for common issues and solutions
+- 🏃 **Pre-flight Check**: Run `./scripts/preflight.sh` to verify your setup
+- 💬 **Community**: Join our discussions for help and support
 
 ---
 
