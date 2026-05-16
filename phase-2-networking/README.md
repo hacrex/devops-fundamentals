@@ -15,32 +15,35 @@ Master networking fundamentals essential for DevOps engineers.
 **Resources:**
 - [Topic Guide](./topic-05-networking-basics.md)
 
-### 📝 Topic 6: HTTP Internals
+### ✅ Topic 6: HTTP Internals
 - HTTP request/response lifecycle
 - Headers and methods
 - HTTP/2 and HTTP/3
 - Status codes
 - Cookies and sessions
 
-**Coming Soon**
+**Resources:**
+- [Topic Guide](./topic-06-http-https.md)
 
-### 📝 Topic 7: TLS & Certificates
+### ✅ Topic 7: TLS & Certificates
 - SSL/TLS handshake
 - Certificate authorities
 - PKI infrastructure
 - Let's Encrypt
 - Certificate management
 
-**Coming Soon**
+**Resources:**
+- [Topic Guide](./topic-08-tls-ssl.md)
 
-### 📝 Topic 8: DNS in Practice
+### ✅ Topic 8: DNS in Practice
 - Name resolution process
 - DNS records (A, AAAA, CNAME, MX, TXT)
 - Debugging tools
 - DNS security
 - Internal DNS setup
 
-**Coming Soon**
+**Resources:**
+- [Topic Guide](./topic-07-dns.md)
 
 ## Learning Path
 

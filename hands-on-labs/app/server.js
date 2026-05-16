@@ -10,8 +10,12 @@ const pool = new Pool({
   port: process.env.DB_PORT || 5432,
   database: process.env.DB_NAME || 'appdb',
   user: process.env.DB_USER || 'postgres',
-  password: process.env.DB_PASSWORD || 'secret123',
+  password: process.env.DB_PASSWORD,
 });
+
+if (!process.env.DB_PASSWORD) {
+  console.warn('WARNING: DB_PASSWORD environment variable is not set!');
+}
 
 const redis = new Redis({
   host: process.env.REDIS_HOST || 'localhost',
